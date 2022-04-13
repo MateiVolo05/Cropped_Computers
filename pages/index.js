@@ -57,7 +57,7 @@ function App(){
           </Box>
         </Center>
         <Stack direction={['column',, 'row']} mt={20} justifyContent="space-around" mb={4} mr={4}>
-          <Box borderWidth="2px" borderColor={color} borderStyle="solid" borderRadius="5px">
+          <Box borderWidth="2px" borderColor={color} borderStyle="solid" borderRadius="5px"w={["100%",,"25%"]}>
             <Heading fontSize="2xl" pt={4} pl={4}>Program:</Heading>
             <HStack>
               <List pl={8}>
@@ -126,7 +126,7 @@ function App(){
             <Heading fontSize="2xl" pt={4} pl={4}>Adresă:</Heading>
             <Link target="_blank" href="https://www.google.com/maps/place/Strada+Muzeelor+5,+Piatra+Neam%C8%9B+617185/@46.9179486,26.3926775,17.86z/data=!4m13!1m7!3m6!1s0x47355449968fa865:0x52d3dedb49e2d0b8!2sPiatra+Neam%C8%9B!3b1!8m2!3d46.9299616!4d26.3779793!3m4!1s0x47355509d74369e3:0xb32425af38943446!8m2!3d46.9180982!4d26.3917811"><Image src="https://raw.githubusercontent.com/MateiVolo05/Cropped_Computers/main/public/location.jpg" width="70vh" height="50vh" pt="2px" pr={4} pl={4} pb={4}/></Link>
           </Box>
-          <Box borderWidth="2px" borderColor={color} borderStyle="solid" borderRadius="5px">
+          <Box borderWidth="2px" borderColor={color} borderStyle="solid" borderRadius="5px" w={["100%",,"30%"]}>
             <Heading fontSize="2xl" pt={4} pl={4}>Date de contact:</Heading>
             <VStack>
               <Heading fontSize="lg" pt="2px">telefon: 0769420420</Heading>
