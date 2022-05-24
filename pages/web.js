@@ -12,7 +12,7 @@ export default function Contact(){
         <Box position="relative" m='0' minH='100vh' _after={{content:'""', display:"block", height:"72px"}}>
             <Nav title="Aplicatii web">
                 <Center>
-                    <Box borderWidth="2px" borderColor={reverse} borderStyle="solid" borderRadius="5px" width="fit-content">
+                    <Box borderWidth="2px" borderColor={reverse} borderStyle="solid" borderRadius="5px" width="fit-content" mr={4}>
                         <Center>
                             <Heading fontSize="3xl" pt={4} pb={4}>Aplicații Web</Heading>
                         </Center>

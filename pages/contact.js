@@ -22,11 +22,11 @@ export default function Contact(){
             <Nav title="Contact">
                 <Stack justifyContent="center" w="70%">
                     <form onSubmit={sendEmail}>
-                        <Input required type="text" placeholder="Numele tău..." name="name" borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
-                        <Input required type="email" placeholder="Emailul tău..." name="email" mt={4} borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
-                        <Input type="tel" placeholder="Numărul tău de telefon..." name="number" mt={4} borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
-                        <Textarea required resize="vertical" maxH="200px" placeholder="Mesajul tău..." name="message" mt={4} borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
-                        <Button required type="submit" mt={4} bg={color}>Trimite</Button>
+                        <Input fontSize={['lg',, "3xl"]} p={[4,, 8]} mb={4} required type="text" placeholder="Numele tău..." name="name" borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
+                        <Input fontSize={['lg',, "3xl"]} p={[4,, 8]} mb={4} required type="email" placeholder="Emailul tău..." name="email" mt={4} borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
+                        <Input fontSize={['lg',, "3xl"]} p={[4,, 8]} mb={4} type="tel" placeholder="Numărul tău de telefon..." name="number" mt={4} borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
+                        <Textarea fontSize={['lg',, "3xl"]} p={4} mb={4} required resize="vertical" maxH="200px" placeholder="Mesajul tău..." name="message" mt={4} borderWidth="2px" borderColor={color} focusBorderColor={reverse}/>
+                        <Button fontSize={['lg',, "3xl"]} p={[4,, 8]} mb={4} required type="submit" mt={4} bg={color}>Trimite</Button>
                     </form>
                 </Stack>
             </Nav>
